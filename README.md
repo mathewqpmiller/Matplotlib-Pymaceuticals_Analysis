@@ -1,4 +1,4 @@
-# Matplotlib Homework - The Power of Plots
+# Matplotlib Project - The Power of Plots
 
 ## Background
 
@@ -17,6 +17,7 @@ As a senior data analyst at the company, you've been given access to the complet
 Your tasks are to do the following:
 
 * Before beginning the analysis, check the data for any mouse ID with duplicate time points and remove any data associated with that mouse ID.
+  Completed
 
 * Use the cleaned data for the remaining steps.
 
