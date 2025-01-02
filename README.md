@@ -20,6 +20,7 @@ Your tasks are to do the following:
   Completed
 
 * Use the cleaned data for the remaining steps.
+  Completed
 
 * Generate a summary statistics table consisting of the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen.
 
