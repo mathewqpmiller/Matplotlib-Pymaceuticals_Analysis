@@ -27,9 +27,9 @@ Your tasks are to do the following:
 ![alt text](images/Statistic_Analysis.png)
 * Generate a bar plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot` that shows the total number of measurements taken for each treatment regimen throughout the course of the study.
 * Pandas Bar Chart
-![alt text](images/PandasBarChart.png)
+![alt text](images/PandasBarChart2.png)
 * Pyplot Bar Chart
-![alt text](images/PyplotBarChart.png)
+![alt text](images/PyplotBarChart2.png)
 
 
 * Generate a pie plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot` that shows the distribution of female or male mice in the study.
