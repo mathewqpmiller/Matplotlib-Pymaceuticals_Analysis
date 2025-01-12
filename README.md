@@ -1,3 +1,4 @@
+![alt text](images/ReadmeProjectBanner.webp)
 # Matplotlib Project - The Power of Plots
 
 ## Background
@@ -23,9 +24,9 @@ Your tasks are to do the following:
   Completed
 
 * Generate a summary statistics table consisting of the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen. Completed
-
+![alt text](images/Statistic_Analysis.png)
 * Generate a bar plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot` that shows the total number of measurements taken for each treatment regimen throughout the course of the study.
-
+![alt text](images/PandasBarChart.png)
   * **NOTE:** These plots should look identical.
 
 * Generate a pie plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot` that shows the distribution of female or male mice in the study.
