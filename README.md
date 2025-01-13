@@ -33,7 +33,7 @@ only good practice but a crucial step in data preprocessing.
 
 ### Create Charts:
 * Step 1 - Create Bar Charts
-* Generate a bar plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot` that shows the total number of measurements taken for each treatment regimen throughout the course of the study.
+* Generate a bar plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot` that shows the total number of measurements taken for each treatment regimen throughout the course of the study. It is encouraged to play with the formating to make the plots easier to read though these charts should essentially be identical when finished. 
   
 * Pandas Bar Chart
 ![alt text](images/PandasBarChart2.png)
@@ -41,7 +41,7 @@ only good practice but a crucial step in data preprocessing.
 ![alt text](images/PyplotBarChart2.png)
 
 * Step 2 - Create Pie Charts
-* Generate a pie plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot` that shows the distribution of female or male mice in the study.
+* Generate a pie plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot` that shows the distribution of female or male mice in the study. Like the bar charts, play with the formatting a little however the charts should be essentially identical when completed.
   
 * Pandas Pie Chart
 ![alt text](images/PandasPieChart2.png)
