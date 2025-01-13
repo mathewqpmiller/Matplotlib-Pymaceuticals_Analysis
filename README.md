@@ -4,7 +4,13 @@
 
 What good is data without a good plot to tell the story?
 
+<<<<<<< HEAD
 ![alt text](images/MatplotlibProjectBanner.webp)
+=======
+So, let's take what you've learned about Python Matplotlib and apply it to a real-world situation and dataset:
+
+![Laboratory](images/Laboratory.jpg)
+>>>>>>> a647a7aa05b4f94109ada10641f82a627534e034
 
 While your data companions rushed off to jobs in finance and government, you remained adamant that science was the way for you. Staying true to your mission, you've joined Pymaceuticals Inc., a burgeoning pharmaceutical company based out of San Diego. Pymaceuticals specializes in anti-cancer pharmaceuticals. In its most recent efforts, it began screening for potential treatments for squamous cell carcinoma (SCC), a commonly occurring form of skin cancer.
 
