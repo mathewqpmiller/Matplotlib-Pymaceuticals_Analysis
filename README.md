@@ -98,4 +98,6 @@ Here are some final considerations:
 
 ### Copyright
 
-Trilogy Education Services © 2020. All Rights Reserved.
+UNIVERSITY OF OREGON: Data Analytics Boot Camp - Repository for project 5(Matplotlib Challenge)
+
+Mathew Miller © 2021. All Rights Reserved.
