@@ -6,7 +6,6 @@ What good is data without a good plot to tell the story?
 
 ![alt text](images/Matplotlib_Github_Repo_CoverImage.png)
 
-So, let's take what you've learned about Python Matplotlib and apply it to a real-world situation and dataset:
 
 While your data companions rushed off to jobs in finance and government, you remained adamant that science was the way for you. Staying true to your mission, you've joined Pymaceuticals Inc., a burgeoning pharmaceutical company based out of San Diego. Pymaceuticals specializes in anti-cancer pharmaceuticals. In its most recent efforts, it began screening for potential treatments for squamous cell carcinoma (SCC), a commonly occurring form of skin cancer.
 
@@ -36,9 +35,9 @@ only good practice but a crucial step in data preprocessing.
 * Generate a bar plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot` that shows the total number of measurements taken for each treatment regimen throughout the course of the study. It is encouraged to play with the formating to make the plots easier to read though these charts should essentially be identical when finished. 
   
 * Pandas Bar Chart
-![alt text](images/PandasBarChart2.png)
+![alt text](images/DrugRegimen_PandasBarChart.png)
 * Pyplot Bar Chart
-![alt text](images/PyplotBarChart2.png)
+![alt text](images/DrugRegimen_PandasBarChart2.png)
 
 * Step 2 - Create Pie Charts
 * Generate a pie plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot` that shows the distribution of female or male mice in the study. Like the bar charts, play with the formatting a little however the charts should be essentially identical when completed.
