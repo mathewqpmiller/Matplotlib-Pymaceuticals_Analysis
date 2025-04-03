@@ -4,7 +4,7 @@
 
 What good is data without a good plot to tell the story?
 
-![alt text]((https://github.com/mathewqpmiller/Matplotlib-Pymaceuticals_Analysis/blob/main/images/Matplotlib_Github_Repo_CoverImage.png?raw=true))
+![alt text](images/Matplotlib_Github_Repo_CoverImage.png)
 
 So, let's take what you've learned about Python Matplotlib and apply it to a real-world situation and dataset:
 
