@@ -31,25 +31,27 @@ imagine scenarios where duplicates could accumulate and skew results. Therefore,
 only good practice but a crucial step in data preprocessing.
 
 ### Create Charts:
-* Step 1 - Create Bar Charts
-* Generate a bar plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot` that shows the total number of measurements taken for each treatment regimen throughout the course of the study. It is encouraged to play with the formating to make the plots easier to read though these charts should essentially be identical when finished. 
+* Step 1 - Create Bar Chart
+* Generate a bar plot using Matplotlib's `pyplot` that shows the total number of measurements taken for each treatment regimen throughout the course of the study. It is encouraged to play with the formating to make the plots easier to read. 
 
 * Pyplot Bar Chart
 ![alt text](images/DrugRegimen_Pyplot_BarChart.png)
 
 * Step 2 - Create Pie Charts
-* Generate a pie plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot` that shows the distribution of female or male mice in the study. Like the bar charts, play with the formatting a little however the charts should be essentially identical when completed.
+* Generate a pie plot using Matplotlib's `pyplot` that shows the distribution of female or male mice in the study. Like the bar charts, play with the formatting a little to make it easier to read, but stay consistent with the formating for uniformity.
 
-* Pyplot Pie Chart
+* Pyplot Pie Chart(a)
 ![alt text](images/Pyplot_PieChart.png?raw=true)
 
-* Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Calculate the quartiles and IQR and quantitatively determine if there are any potential outliers across all four treatment regimens.
+* Generate another pie plot that shows the percentage of each of the drug regiments used in the study. Again, play with the formatting to make it easier to read but stay consistent with the previous charts formatting for uniformity.
 
-*Step 3 - Summarize Findings
-This drug trial was not biased toward any one drug or any gender.  There are slight differences in the numbers, but for the most part, the drugs were tested at about the same rate and evenly amongst gender.  I would say that for this trial to be trusted, it would need to administer the exact same amount of test measurements per drug with an even split amongst gender.  For example, if there were 230 tests administered of Capomulin, then there should be 230 tests measurements for all the other drugs.  Further, if there were 230 measurements per drug regimen, then there should be 115 tests per male and 115 tests per female across all drugs.  I would think that this would provide the most accurate picture of what these drugs are capable of and which one is more effective at achieving its goal and for which gender.
+* Pyplot Pie Chart(b)
+![alt text](images/Pyplot_PieChart2.png)
 
+*Summarize Findings
+This drug trial was not biased toward any gender or drug regimen.  There are slight differences in the numbers, but for the most part, the drugs were tested at about the same rate and evenly amongst gender.  I would say that for this trial to be trusted, it would need to administer the exact same amount of test measurements per drug with an even split amongst gender.  For example, if there were 230 tests administered of Capomulin, then there should be 230 tests measurements for all the other drugs.  Further, if there were 230 measurements per drug regimen, then there should be 115 tests per male and 115 tests per female across all drugs.  I would think that this would provide the most accurate picture of what these drugs are capable of and which one is more effective at achieving its goal and for which gender.
 
-
+* Step 3 - Create Box Plot
 * Using Matplotlib, generate a box and whisker plot of the final tumor volume for all four treatment regimens and highlight any potential outliers in the plot by changing their color and style.
 
   **Hint**: All four box plots should be within the same figure. Use this [Matplotlib documentation page](https://matplotlib.org/gallery/pyplots/boxplot_demo_pyplot.html#sphx-glr-gallery-pyplots-boxplot-demo-pyplot-py) for help with changing the style of the outliers.
