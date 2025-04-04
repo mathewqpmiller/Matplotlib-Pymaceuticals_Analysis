@@ -35,20 +35,23 @@ only good practice but a crucial step in data preprocessing.
 * Generate a bar plot using Matplotlib's `pyplot` that shows the total number of measurements taken for each treatment regimen throughout the course of the study. It is encouraged to play with the formating to make the plots easier to read. 
 
 * Pyplot Bar Chart
+  
 ![alt text](images/DrugRegimen_Pyplot_BarChart.png)
 
 * Step 2 - Create Pie Charts
 * Generate a pie plot using Matplotlib's `pyplot` that shows the distribution of female or male mice in the study. Like the bar charts, play with the formatting a little to make it easier to read, but stay consistent with the formating for uniformity.
 
 * Pyplot Pie Chart(a)
+  
 ![alt text](images/Pyplot_PieChart.png?raw=true)
 
 * Generate another pie plot that shows the percentage of each of the drug regiments used in the study. Again, play with the formatting to make it easier to read but stay consistent with the previous charts formatting for uniformity.
 
 * Pyplot Pie Chart(b)
+  
 ![alt text](images/Pyplot_PieChart2.png)
 
-*Summarize Findings
+* Summarize Findings
 This drug trial was not biased toward any gender or drug regimen.  There are slight differences in the numbers, but for the most part, the drugs were tested at about the same rate and evenly amongst gender.  I would say that for this trial to be trusted, it would need to administer the exact same amount of test measurements per drug with an even split amongst gender.  For example, if there were 230 tests administered of Capomulin, then there should be 230 tests measurements for all the other drugs.  Further, if there were 230 measurements per drug regimen, then there should be 115 tests per male and 115 tests per female across all drugs.  I would think that this would provide the most accurate picture of what these drugs are capable of and which one is more effective at achieving its goal and for which gender.
 
 * Step 3 - Create Box Plot
