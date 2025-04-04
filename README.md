@@ -65,7 +65,19 @@ This drug trial was not biased toward any gender or drug regimen.  There are sli
 
   **Hint**: All four box plots should be within the same figure. Use this [Matplotlib documentation page](https://matplotlib.org/gallery/pyplots/boxplot_demo_pyplot.html#sphx-glr-gallery-pyplots-boxplot-demo-pyplot-py) for help with changing the style of the outliers.
 
+* Pyplot Box Chart
+
+<div align="center">
+    <img src="images/TumorVolume_Pyplot_BoxPlot.png" alt="Pyplot Pie Chart" />
+</div>
+
 * Select a mouse that was treated with Capomulin and generate a line plot of tumor volume vs. time point for that mouse.
+
+* Pyplot Line Plot
+
+<div align="center">
+    <img src="images/Capomulin_TumorVolume_OverTime_LineChart.png" alt="Pyplot Pie Chart" />
+</div>
 
 * Generate a scatter plot of mouse weight versus average tumor volume for the Capomulin treatment regimen.
 
