@@ -43,7 +43,7 @@ only good practice but a crucial step in data preprocessing.
 * Step 2 - Create Pie Charts
 * Generate a pie plot using Matplotlib's `pyplot` that shows the distribution of female or male mice in the study. Like the bar charts, play with the formatting a little to make it easier to read, but stay consistent with the formating for uniformity.
 
-* Pyplot Pie Chart(a)
+* Pyplot Pie Chart (a)
 
 <div align="center">
     <img src="images/Pyplot_PieChart.png" alt="Pyplot Pie Chart" />
@@ -51,10 +51,10 @@ only good practice but a crucial step in data preprocessing.
 
 * Generate another pie plot that shows the percentage of each of the drug regiments used in the study. Again, play with the formatting to make it easier to read but stay consistent with the previous charts formatting for uniformity.
 
-* Pyplot Pie Chart(b)
+* Pyplot Pie Chart (b)
 
 <div align="center">
-    <img src="images/Pyplot_PieChart2.png" alt="Pyplot Pie Chart" />
+    <img src="images/Drug_Percentage_Pyplot_PieChart.png" alt="Pyplot Pie Chart" />
 </div>
 
 * Summarize Findings
