@@ -79,8 +79,6 @@ This drug trial was not biased toward any gender or drug regimen.  There are sli
 #### Step Three - Create Box Plot
 * Using Matplotlib, generate a box and whisker plot of the final tumor volume for all four treatment regimens and highlight any potential outliers in the plot by changing their color and style.
 
-  **Hint**: All four box plots should be within the same figure. Use this [Matplotlib documentation page](https://matplotlib.org/gallery/pyplots/boxplot_demo_pyplot.html#sphx-glr-gallery-pyplots-boxplot-demo-pyplot-py) for help with changing the style of the outliers.
-
 * Pyplot Box Chart
 
 <div align="center">
@@ -112,41 +110,23 @@ This drug trial was not biased toward any gender or drug regimen.  There are sli
 </div>
 * Calculate the correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment. Plot the linear regression model on top of the previous scatter plot.
 
-### Analysis
-* Look across all previously generated figures and tables and write at least three observations or inferences that can be made from the data. Include these observations at the top of notebook.
+### Key Observations
+Box Plot Insights
+The box plots reveal variability in the effectiveness and distribution of tumor volume measurements across different drug regimens. Some treatments exhibit a narrow interquartile range (IQR), indicating more consistent results or potentially fewer data points. In contrast, others show wider or skewed distributions, suggesting greater variability in outcomes. The position of the median within the boxes—centered in some and skewed in others—also highlights differences in how tumor volumes responded to treatment across regimens.
 
-Here are some final considerations:
+Line Chart Trend
+The line chart tracking tumor volume over time for a single mouse under Capomulin treatment displays a clear downward trend. This suggests a positive therapeutic effect, with tumor size consistently decreasing as the treatment progressed—an encouraging sign of Capomulin’s potential efficacy.
 
-* You must use proper labeling of your plots, to include properties such as: plot titles, axis labels, legend labels, _x_-axis and _y_-axis limits, etc.
+Regression Line Correlation
+The scatter plot with a fitted regression line shows a strong positive correlation (r = 0.84) between mouse weight and tumor volume. This relationship may imply that heavier mice tend to develop larger tumors, reinforcing the need to control for weight in treatment assessments. The strength of this correlation also suggests that the data is well-suited for regression-based modeling.
 
-* See the [starter workbook](Pymaceuticals/pymaceuticals_starter.ipynb) for help on what modules to import and expected format of the notebook.
+### Project Analysis:Tumor Volume Study Using Matplotlib
+This project focused on visualizing and analyzing tumor volume data using Matplotlib, Jupyter Notebook, and pandas. Key visual components included a line chart tracking tumor volume over time for a single subject, a bar chart summarizing drug regimen activity, and a customized box plot displaying the distribution of tumor volumes across treatment groups. Visual clarity and formatting were emphasized through thoughtful use of color, font sizing, chart annotations, and spine/gridline customization.
 
-## Hints and Considerations
-
-* Be warned: These are very challenging tasks. Be patient with yourself as you trudge through these problems. They will take time and there is no shame in fumbling along the way. Data visualization is equal parts exploration, equal parts resolution.
-
-* You have been provided a starter notebook. Use the code comments as a reminder of steps to follow as you complete the assignment.
-
-* Don't get bogged down in small details. Always focus on the big picture. If you can't figure out how to get a label to show up correctly, come back to it. Focus on getting the core skeleton of your notebook complete. You can always revisit old problems.
-
-* While you are trying to complete this assignment, feel encouraged to constantly refer to Stack Overflow and the Pandas documentation. These are needed tools in every data analyst's tool belt.
-
-* Remember, there are many ways to approach a data problem. The key is to break up your task into micro tasks. Try answering questions like:
-
-  * How does my DataFrame need to be structured for me to have the right _x_-axis and _y_-axis?
-
-  * How do I build a basic scatter plot?
-
-  * How do I add a label to that scatter plot?
-
-  * Where would the labels for that scatter plot come from?
-
-  Again, don't let the magnitude of a programming task scare you off. Ultimately, every programming problem boils down to a handful of bite-sized tasks.
-
-* Get help when you need it! There is never any shame in asking. But, as always, ask a _specific_ question. You'll never get a great answer to "I'm lost."
+While there is room to extend this project—such as adding multiple time series for comparative analysis, building complete box plots for all drug regimens, or developing an interactive dashboard with hover-enabled data points—the current version effectively demonstrates core data visualization techniques. The charts are polished, clearly annotated, and convey meaningful insights into the dataset.
 
 ### Copyright
 
-UNIVERSITY OF OREGON: Data Analytics Boot Camp - Repository for project 5(Matplotlib Challenge)
+UNIVERSITY OF OREGON: Data Analytics Boot Camp - Repository for project 5 (Matplotlib Challenge)
 
 Mathew Miller © 2021. All Rights Reserved.
