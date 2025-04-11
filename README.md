@@ -53,7 +53,7 @@ only good practice but a crucial step in data preprocessing.
 * Pyplot Bar Chart
 
 <div align="center">
-    <img src="images/DrugRegimen_Pyplot_BarChart.png" width="750" />
+    <img src="images/DrugRegimen_CleanBarChart.png" width="750" />
 </div>
 
 #### Step Two - Create Pie Plots
