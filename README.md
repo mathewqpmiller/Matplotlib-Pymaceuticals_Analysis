@@ -111,19 +111,24 @@ This drug trial was not biased toward any gender or drug regimen.  There are sli
 * Calculate the correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment. Plot the linear regression model on top of the previous scatter plot.
 
 ### Key Observations
-Box Plot Insights
+#### Box Plot Insights
+
 The box plots reveal variability in the effectiveness and distribution of tumor volume measurements across different drug regimens. Some treatments exhibit a narrow interquartile range (IQR), indicating more consistent results or potentially fewer data points. In contrast, others show wider or skewed distributions, suggesting greater variability in outcomes. The position of the median within the boxes—centered in some and skewed in others—also highlights differences in how tumor volumes responded to treatment across regimens.
 
-Line Chart Trend
+#### Line Chart Trend
+
 The line chart tracking tumor volume over time for a single mouse under Capomulin treatment displays a clear downward trend. This suggests a positive therapeutic effect, with tumor size consistently decreasing as the treatment progressed—an encouraging sign of Capomulin’s potential efficacy.
 
-Regression Line Correlation
+#### Regression Line Correlation
+
 The scatter plot with a fitted regression line shows a strong positive correlation (r = 0.84) between mouse weight and tumor volume. This relationship may imply that heavier mice tend to develop larger tumors, reinforcing the need to control for weight in treatment assessments. The strength of this correlation also suggests that the data is well-suited for regression-based modeling.
 
 ### Project Analysis:Tumor Volume Study Using Matplotlib
-This project focused on visualizing and analyzing tumor volume data using Matplotlib, Jupyter Notebook, and pandas. Key visual components included a line chart tracking tumor volume over time for a single subject, a bar chart summarizing drug regimen activity, and a customized box plot displaying the distribution of tumor volumes across treatment groups. Visual clarity and formatting were emphasized through thoughtful use of color, font sizing, chart annotations, and spine/gridline customization.
+This project centers on visualizing and analyzing tumor volume data using Matplotlib, Jupyter Notebook, and pandas. Key visual components include a line chart tracking tumor volume over time for a single subject, a bar chart summarizing drug regimen activity, and a customized box plot illustrating tumor volume distributions across treatment groups. Visual clarity was prioritized through careful formatting—utilizing consistent color schemes, readable fonts, annotations, and spine/gridline adjustments.
 
-While there is room to extend this project—such as adding multiple time series for comparative analysis, building complete box plots for all drug regimens, or developing an interactive dashboard with hover-enabled data points—the current version effectively demonstrates core data visualization techniques. The charts are polished, clearly annotated, and convey meaningful insights into the dataset.
+While there is potential for further development—such as adding comparative time series, full box plots for all drug regimens, or an interactive dashboard with hover-enabled insights—this version effectively highlights foundational data visualization skills. The visualizations are well-polished, annotated, and communicate meaningful trends within the dataset.
+
+In hindsight, reorganizing the charts to build a more natural storytelling progression—from demographic overviews to comparative drug performance and individual response—could further enhance the project’s clarity and impact.
 
 ### Copyright
 
