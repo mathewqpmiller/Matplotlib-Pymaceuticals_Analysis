@@ -101,9 +101,15 @@ This drug trial was not biased toward any gender or drug regimen.  There are sli
 * Pyplot Scatter Chart
 
 <div align="center">
-    <img src="images/Capomulin_TumorVolume_Vs_MouseWeight.png" width="600" />
+    <img src="images/Capomulin_TumorVolume_MouseWeight_Scatterplot.png" width="600" />
 </div>
 
+#### Step Six - Create a Regression Line
+* Generate a regression line plot that shows the same "mouse weight versus average tumor volume" plot points but with a regression line and without the size variable.
+* Pyplot Regression Line Chart
+<div align="center">
+    <img src="images/Capomulin_TumorVolume_MouseWeight_RegressionLine.png" width="600" />
+</div>
 * Calculate the correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment. Plot the linear regression model on top of the previous scatter plot.
 
 ### Analysis
